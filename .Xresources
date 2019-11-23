@@ -1,0 +1,24 @@
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+xft.lcdfilter: lcddefault
+
+% settings for urxvt terminal-emulator
+*URxvt.font: xft:DejaVu Sans Mono:size=12
+
+URxvt.scrollBar: false
+
+urxvt.foreground: 	#E8DFD6
+urxvt.background: 	#021B21
+urxvt.cursorColor:  #E8DFD6
+
+URxvt.cursorBlink: 1
+
+URxvt.iso14755: false
+URxvt.perl-ext-common: default,clipboard
+URxvt.keysym.C-C: perl:clipboard:copy
+URxvt.keysym.C-V: perl:clipboard:paste
+URxvt.keysym.C-A-V: perl:clipboard:paste_escaped 
